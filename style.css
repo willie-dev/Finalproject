@@ -1,0 +1,238 @@
+body {
+	margin: 0px;
+	padding: 0;
+	background: linear-gradient(30deg, rgb(0,0,0,.76), rgba(0, 0, 0, 0.678)),
+		url("images/wilson.jpg");
+	background-position-x: 50%;
+	background-position-y: 30%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: "Alegreya"!important;
+	font-size: 12px;
+	color: #0e4456;
+}
+td{
+	color: #fff;
+}
+nav {
+	background: #18323d;
+}
+.btn-info {
+	background-color: #18323d !important;
+}
+.card {
+	border: 1px solid #17a2b8 !important;
+}
+hr {
+	background-color: #dfdfdf !important;
+	height: 1px;
+}
+h1,
+h2,
+h3 {
+	color: #444;
+}
+ol {
+	margin-top: 0;
+	line-height: 220%;
+	text-align: justify;
+}
+a {
+	color: #0e4456;
+}
+a:hover {
+	text-decoration: none;
+}
+a img {
+	border: none;
+}
+img.left {
+	float: left;
+	margin: 7px 30px 0 0;
+}
+img.right {
+	float: right;
+	margin: 7px 0 0 30px;
+}
+.list1 li {
+	float: left;
+	line-height: normal;
+}
+.list1 li img {
+	margin: 0 30px 30px 0;
+}
+.list1 li.alt img {
+	margin-right: 0;
+}
+#wrapper {
+	margin: 0px;
+	padding: 30px 0px 0px 0px;
+}
+
+/* Header */
+#header-wrapper {
+	margin: 0px;
+	padding: 0px;
+}
+#header {
+	width: 1100px;
+	height: 60px;
+	margin: 0 auto;
+}
+/* Search */
+#search {
+	float: right;
+	width: 310px;
+}
+/* Page */
+#page {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0px;
+}
+/** LOGO */
+#logo {
+	width: 1100px;
+	height: 175px;
+	margin: 0 auto;
+}
+#banner {
+	float: right;
+	margin-top: -60px;
+	padding: 0px 20px 0px 0px;
+}
+label {
+	font-size: 16px;
+	color: #444;
+}
+/* Content */
+#content {
+	float: left;
+	width: 700px;
+}
+/* Post */
+.post {
+	margin-bottom: 45px;
+}
+.post .title {
+	height: 30px;
+	color: #fff;
+}
+.post .title a {
+	text-decoration: none;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #08252e;
+}
+.post .meta {
+	margin-left: 2px;
+	padding: 15px 0px 0px;
+	color: #333;
+	font-style: italic;
+	text-transform: lowercase;
+}
+.post .entry-content {
+	float: right;
+	width: 330px;
+}
+.post .entry-image {
+	float: left;
+	width: 280px;
+	padding-right: 20px;
+	padding-top: 6px;
+	padding-bottom: 30px;
+}
+.post .links a {
+	padding: 10px;
+	font-weight: bold;
+	color: #fff;
+}
+.post .links .permalink {
+	padding-left: 17px;
+}
+
+/* Sidebar */
+#sidebar {
+	float: right;
+	width: 320px;
+	font-size: 12px;
+	padding-left: 20px;
+	margin-top: 0px;
+	border-left: 1px solid #dfdfdf;
+	position: relative !important;
+}
+#page {
+	position: relative !important;
+	margin-bottom: 30px;
+}
+#sidebar ul {
+	margin: 0px 0px 0px 30px;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+#sidebar ul li {
+	font-size: 16px;
+	font-weight: 300;
+}
+/* Calendar */
+#calendar caption {
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+#calendar table {
+	width: 100%;
+	border-collapse: collapse;
+	border-bottom: 1px solid #24130f;
+	border-left: 1px solid #24130f;
+	border-right: 1px solid #24130f;
+}
+#calendar thead th {
+	padding: 5px 0;
+	text-align: center;
+	border-top: 1px solid #24130f;
+	border-left: 1px solid #24130f;
+	background: #24130f;
+}
+#calendar tbody td {
+	padding: 5px 0;
+	text-align: center;
+	border-top: 1px solid #24130f;
+	border-left: 1px solid #24130f;
+	border-bottom: 1px solid #24130f;
+}
+#calendar tfoot td {
+	padding: 5px;
+	border-left: 1px solid #24130f;
+	border-bottom: 1px solid #24130f;
+}
+
+#calendar tfoot #next {
+	border-top: 1px solid #24130f;
+	text-align: right;
+}
+
+#calendar tfoot #prev {
+	border-top: 1px solid #24130f;
+}
+
+#calendar .pad {
+	border-bottom: 1px solid #24130f;
+}
+
+#calendar #today {
+	background: #24130f;
+}
+::marker{
+	color:#fff;
+}
+#footer {
+	padding: 20px 0;
+	text-align: center;
+	position: fixed;
+	top: 90vh;
+	bottom: 0vh;
+	right: 0;
+	left: 0;
+}
